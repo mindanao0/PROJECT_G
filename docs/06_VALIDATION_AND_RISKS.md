@@ -118,7 +118,7 @@ Record อย่างน้อย: build/content revision, target device, route
 | K06 canon drift / สูง | โมเดลเรียก S0 ว่ายืนยันแล้ว หรือเพิ่มกฎใหม่เงียบ ๆ | answer log + decision owner + diff review | ผู้รับช่วง P01/ทุก gate |
 | K07 Thai/layout / สูง | อ่านไม่ครบ/เครื่องหมายแตก/choice ล้น | spike ก่อนผลิต; เปลี่ยน font/layout/candidate ตามหลักฐาน | technical P10/G3 |
 | K08 save/state leak / สูง | ย้อนแล้วได้หลักฐานหรือความรู้จากอนาคต | isolate story state; revision policy; ST10–ST15 | technical P06/P13 |
-| K09 capacity unknown / สูง | มีวันส่งหรือ 12 ชั่วโมงทั้งที่ Q17/Q18 ว่าง | แจ้ง UNKNOWN; วัด throughput จริงและเลือก scope | producer P16/P17/G5 |
+| K09 capacity unknown / สูง | สัญญาเวลา/งบให้เป้า 12 บททั้งที่ Q17/Q18 ว่าง | แจ้ง UNKNOWN; วัด throughput จริงและยืนยัน feasibility/สิ่งที่ต้องปรับกับเจ้าของ | producer P16/P17/G5 |
 | K10 ภาพ/เสียงไม่ต่อเนื่องหรือสิทธิ์ไม่ชัด / กลาง–สูง | เปลี่ยน style บ่อย/ไม่มี source/licence | style sheet/asset ledger; placeholder จนเลือกแหล่งผลิต | art/audio P09/P12/P22 |
 | K11 content boundary ยังไม่ละเอียด / สูง | เพิ่มภาพรุนแรงหรือเนื้อหาทางเพศเกินระดับที่เจ้าของหมายถึง | Q06 อนุญาตการสูญเสียชัด ภาพรุนแรง และเนื้อหาทางเพศเล็กน้อยเท่านั้น; ระบุหมวด/ระดับ/ฉากและ content warnings ก่อนบท/asset; ห้ามอนุมานว่าอนุญาตความรุนแรงทางเพศ | narrative P02/P07 |
 | K15 ความรักกลายเป็นกุญแจบังคับ/ลงโทษคนไม่เลือก / สูง | ความจริงหรือ ending หลักขาดหายถ้าไม่เลือกคู่ | ทุกเส้นรวมถึง no-romance ต้องมีเส้นทางหลักฐานและ ending ที่มีความหมาย; route เพิ่มข้อมูล/ฉาก/ผลตาม Q03 โดยไม่ผูก truth ทั้งหมดกับคู่เดียว | narrative P03/P04/P18 |
