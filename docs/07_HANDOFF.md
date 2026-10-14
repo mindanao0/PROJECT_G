@@ -1,14 +1,14 @@
 # 07 — ส่งต่อโมเดลอื่นโดยไม่เริ่มใหม่
 
-**สถานะย่อ 2026-10-14:** PROJECT_G คือ AFTERIMAGE เกม VN ไซไฟลึกลับ มีแต่เอกสาร รอบล่าสุดขอแผนและคำถามให้ครบ ยังไม่อนุญาต code; repo ต้นทางมี brief เดียว ตอนนี้จัดชุดแผนและแบบทดลอง S0 ที่ยังไม่ใช่ canon
+**สถานะย่อ 2026-10-14:** PROJECT_G คือ AFTERIMAGE เกม VN ไซไฟลึกลับ มีแต่เอกสาร; ยังไม่อนุญาต code. เจ้าของตอบ Q01–Q07 แล้ว (ดู answer log ใน 02); Q08 เป็นคำถามถัดไป. แกน/โทน/ตัวเอก/romance ช่วงกลาง/การสูญเสียและภาพรุนแรงกับเนื้อหาทางเพศเล็กน้อย/ตัวละครหลักมากกว่า 7 เป็นทิศทางที่ยืนยัน; รายละเอียดเฉพาะและ S0 ยังต้องแก้/เป็น proposal.
 
 ## 1. สิ่งที่ห้ามหลุดจาก context
 
 - เจ้าของเลือก: ตัวเอกคนธรรมดา, โลกอนาคต, ปริศนา/จิตวิทยา/ความสัมพันธ์/สยอง/อาชญากรรม/การเติบโต
 - ต้องมี branching ที่เปลี่ยนเหตุการณ์จริง ข้อมูลต่างคนต่างรู้ ความเชื่อใจ/ทรยศ ทีม ค่าความสัมพันธ์/สถานะ/Level และการนำเสนอแบบ VN
 - 12 บท × 1 ชั่วโมงยังเป็นประมาณการ ไม่ใช่ requirement ตายตัว
-- ยังไม่มีคำตอบใหม่ของ 28 คำถาม และยังไม่ยืนยันพล็อต กฎโลก engine/platform หรืองบ
-- S0 ที่ลงรายละเอียดแล้วเป็นข้อเสนอ: 12 nodes / 22 traces / 4 choices / 3 checkpoints; แก้ได้ตามคำตอบ
+- Q01–Q07 มีคำตอบ; Q08–Q28 ยังเปิด. พล็อตเฉพาะ กฎรายละเอียด engine/platform และงบยังไม่ยืนยัน
+- S0 ยังเป็นข้อเสนอ: โครงเดิม 12 nodes / 4 choices / 3 checkpoints; 22 traces ที่เคยตรวจเป็นผลของ premise รุ่นเก่าและต้องตรวจใหม่หลัง P02/P05
 - ไม่มี game implementation, assets, script เต็ม, playtest หรือ CI ที่ผ่านแล้ว; อย่ารายงานเกินนี้
 - อย่านำ local-only/GPU/Linux/ข้อห้ามจากโครงการอื่นมาใช้เป็นคำสั่งของ PROJECT_G โดยอัตโนมัติ
 
@@ -74,8 +74,8 @@
 | Source audit base | `62ed09c5fc88ea528ce7531e65d69a55a144fd1d` |
 | Current package | แผนรอบ 2026-10-14; อ่าน commit/PR ล่าสุดจาก GitHub เมื่อเริ่ม session |
 | Completed | P00; draft specification/คำถาม/แผน/acceptance/handoff |
-| Next | P01 รับคำตอบ → P02/P03/P04 ตาม dependency |
-| Pending owner decisions | Q01–Q28; เริ่ม core Q01–Q06/Q08 ก่อน |
+| Next | P01 ต่อให้จบด้วย Q08 → P02 แก้ truth/timeline ที่ขัดกับ Q04 → P03/P04 ตาม dependency |
+| Pending owner decisions | Q08–Q28; ไม่ถาม Q01–Q07 ซ้ำ |
 | Allowed without more answers | document consistency review, conditional design, scope comparison |
 | Not yet authorized | code/engine setup/full script/final assets/release |
 | Evidence status | ดู 06 §8; runtime และ playtest ยัง NOT RUN |

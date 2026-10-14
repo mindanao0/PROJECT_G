@@ -120,7 +120,9 @@ Record อย่างน้อย: build/content revision, target device, route
 | K08 save/state leak / สูง | ย้อนแล้วได้หลักฐานหรือความรู้จากอนาคต | isolate story state; revision policy; ST10–ST15 | technical P06/P13 |
 | K09 capacity unknown / สูง | มีวันส่งหรือ 12 ชั่วโมงทั้งที่ Q17/Q18 ว่าง | แจ้ง UNKNOWN; วัด throughput จริงและเลือก scope | producer P16/P17/G5 |
 | K10 ภาพ/เสียงไม่ต่อเนื่องหรือสิทธิ์ไม่ชัด / กลาง–สูง | เปลี่ยน style บ่อย/ไม่มี source/licence | style sheet/asset ledger; placeholder จนเลือกแหล่งผลิต | art/audio P09/P12/P22 |
-| K11 content boundary ไม่ชัด / สูง | เริ่มฉากที่เสี่ยงละเมิด Q06 ก่อนตอบ | ร่างไม่โจ่งแจ้ง; ยืนยันหมวดก่อน final script/assets | narrative P02/P07 |
+| K11 content boundary ยังไม่ละเอียด / สูง | เพิ่มภาพรุนแรงหรือเนื้อหาทางเพศเกินระดับที่เจ้าของหมายถึง | Q06 อนุญาตการสูญเสียชัด ภาพรุนแรง และเนื้อหาทางเพศเล็กน้อยเท่านั้น; ระบุหมวด/ระดับ/ฉากและ content warnings ก่อนบท/asset; ห้ามอนุมานว่าอนุญาตความรุนแรงทางเพศ | narrative P02/P07 |
+| K15 ความรักกลายเป็นกุญแจบังคับ/ลงโทษคนไม่เลือก / สูง | ความจริงหรือ ending หลักขาดหายถ้าไม่เลือกคู่ | ทุกเส้นรวมถึง no-romance ต้องมีเส้นทางหลักฐานและ ending ที่มีความหมาย; route เพิ่มข้อมูล/ฉาก/ผลตาม Q03 โดยไม่ผูก truth ทั้งหมดกับคู่เดียว | narrative P03/P04/P18 |
+| K16 cast/branch QA บาน / สูง | เพิ่มคนหลักและเส้นสัมพันธ์โดยไม่มีงบ variant/test | ตัวละครหลักเต็มเกมต้อง >7 ตาม Q07; ระบุตัวเลขจริงใน P03/P17 และนับ dialogue/knowledge/asset/route tests ทุกคน | narrative/producer P03/P09/P17 |
 | K12 platform/engine churn / กลาง–สูง | เลือกหลาย target พร้อมกันก่อน spike | target แรกหนึ่งชุด; ย้าย engine เฉพาะความเสี่ยงที่พิสูจน์ | technical P08/P10 |
 | K13 public spoilers / กลาง | canon สำคัญอยู่ public โดยเจ้าของเข้าใจว่าเป็น private | Q28 ก่อน canon/public marketing; archive ไม่ใช่ access control | owner P02/P22 |
 | K14 ระบบเกินความจำเป็น / กลาง–สูง | มี backend/LLM/DSL/skill tree แต่ไม่มี scene ใช้ | trace feature → requirement → payoff → test; เลื่อนสิ่งไร้ consumer | design P06/P08 |
@@ -139,7 +141,7 @@ Record อย่างน้อย: build/content revision, target device, route
 |---|---|---|
 | brief ถูกเก็บครบเดิม | PASS: เทียบ byte-for-byte กับ source commit; Git ตรวจเป็น rename 100% | ยืนยันความคงเดิมของไฟล์ ไม่ใช่ความถูกต้องของพล็อต |
 | local links / IDs / Markdown diff | PASS: ลิงก์ภายใน 28 จุด, Q01–Q28, P00–P22, fences และ whitespace | โครงสร้างเอกสาร ไม่ได้ตรวจคุณภาพเกม |
-| S0 graph/22 traces | PASS: แจกแจงเงื่อนไข 8 classes ได้ 22 traces ครอบคลุม 12 nodes/15 edges; 9 choice alternatives | ตรรกะที่เสนอที่ตรวจด้วยการคำนวณชั่วคราว ไม่ใช่ runtime/test suite ของเกม |
+| S0 graph/22 traces | NOT RECHECKED หลัง Q04 ปรับ premise | ตัวเลขเดิมเป็นผลตรวจ proposal รุ่นก่อน ไม่ได้ยืนยัน graph หลังเปลี่ยนจุดเริ่ม/หลักฐาน |
 | Narrative paper playtest | NOT RUN | ยังไม่มี script ที่เจ้าของยืนยัน |
 | Engine/Thai/save/playable tests | NOT RUN | ยังไม่มี code หรือ build |
 
