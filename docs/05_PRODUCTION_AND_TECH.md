@@ -1,0 +1,139 @@
+# 05 — การผลิต เครื่องมือ และขอบเขตทางเทคนิค
+
+**PROPOSED / planning only** แพลตฟอร์ม engine อุปกรณ์ คน เวลา งบ และแหล่งภาพ/เสียงยังไม่ได้ยืนยัน เอกสารนี้เป็นเกณฑ์ตัดสินใจและต้นทุนที่ต้องนับ ไม่ใช่สัญญาส่งมอบ
+
+## 1. Scope ladder
+
+| ระดับ | สิ่งที่ส่งมอบ | ใช้ตัดสินอะไร | ข้อห้ามสรุปเกินหลักฐาน |
+|---|---|---|---|
+| ชุดแผนรอบนี้ | Markdown, graph, questions, contracts | พอให้เจ้าของเลือกและโมเดลรับช่วงไหม | ไม่เรียกว่า prototype เล่นได้ |
+| Paper slice P07 | บทเฉพาะ S0 ที่ยืนยันแล้ว + choice cards | จังหวะเรื่อง ปริศนา เหตุผลของทางเลือก | ยังวัด performance/ภาษาไทยใน engine ไม่ได้ |
+| Technical spike P10 | หนึ่งฉากและ UI/system สำคัญแบบเล็ก | engine/เป้าหมายแรกทำงานจริงไหม | ไม่ขยายเป็น custom engine |
+| Playable slice P11–P15 | 12 nodes/22 traces ตาม S0 หรือฉบับแก้ | คนเล่นรับรู้ผล choice และต้นทุนผลิตเท่าไร | ไม่รับรอง 12 ชั่วโมง/ทุกแพลตฟอร์ม |
+| Production หลัง G5 | จำนวนบท/routes/endings ที่เจ้าของเลือก | ผลิตด้วยงบที่มี | ไม่ขยายตามไอเดียระหว่างทางโดยไม่ตัดสิน scope |
+
+## 2. Inventory สำหรับ S0
+
+ทั้งหมดเป็น **เพดานเสนอสำหรับทดลอง** ยังไม่มี assets ถูกสร้างหรือได้สิทธิ์ใช้
+
+| Asset / ID | จำนวนที่ต้องเขียน/ทำ | ใช้ที่ไหน | วิธีควบคุมต้นทุน |
+|---|---|---|---|
+| Scene nodes S01–S08 รวมแขนง | 12 nodes, ต่อรอบ 8 | 04 | เขียนเฉพาะ slice; แยก variant text จาก shared text |
+| Variant families V01–V08 | 8 families; จำนวนบล็อกจริงรอ P07 | 04 §8 | นับทุกค่าที่ต่างและ interaction ไม่คิดว่า family=หนึ่งบรรทัด |
+| BG01 จุดรับส่ง | 1 background | S01 | ใช้ภาพ placeholder ก่อน |
+| BG02 ลาน/จุดนัดหมาย | 1 background | S02/S04/S06/S07*/S08 | reuse พร้อมองค์ประกอบเปลี่ยนตามเหตุการณ์ |
+| BG03 จุดตรวจคลินิก | 1 background | S03A/S05* เมื่อ archive | ไม่ทำห้องใหม่ทุกบทสนทนา |
+| BG04 จุดตรวจขนส่ง | 1 background | S03B/S05* เมื่อ witness | ต่าง route ต้องเห็นพื้นที่/กิจกรรมต่างจริง |
+| SP_C01 / SP_C02 | 2 character designs; คนละ 3 สีหน้า = 6 expression exports | ฉากพันธมิตร | count แยก design กับภาพ export; C00 ใช้ POV ไม่มี sprite ใน slice |
+| EV_E01–EV_E04 | 4 evidence cards; ต่อรอบพบ 3 | journal/scene | ตัวหนังสือเป็น text ที่อ่าน/ขยายได้ ไม่ฝังข้อมูลสำคัญในภาพอย่างเดียว |
+| UI01–UI06 | 6 หน้าที่หน้าจอด้านล่าง | navigation | ใช้ engine components ก่อนทำ UI framework |
+| AU_AMB01/02 | ambience 2 ชิ้น | ภายใน/ภายนอก | mute ได้และเรื่องยังเข้าใจครบ |
+| AU_SFX01–03 | SFX 3 ชิ้น | รับเอกสาร/เปิดบันทึก/แจ้ง event | ไม่ใช้เสียงเป็นช่องทางข้อมูลเดียว |
+| VO / CG / animation พิเศษ | 0 ใน baseline slice | — | เพิ่มได้หลัง Q19/Q20 และประเมินใหม่ |
+
+### Asset acceptance และสิทธิ์
+
+แต่ละรายการก่อนเข้ารุ่นทดสอบจริงต้องมี: owner/source, licence/สิทธิ์ที่ใช้ได้, reference/style revision, สถานะ placeholder/final, scene ที่ใช้, dimensions/format ที่ engine ตกลง, alt/transcript และเครดิตที่ต้องแสดง ไม่มีข้อสรุปว่า asset จากอินเทอร์เน็ตหรือ AI ใช้ขายได้โดยอัตโนมัติ
+
+Q19 เลือกแหล่งผลิตก่อนสร้างภาพ; Q20 เลือกเสียงก่อนพากย์ “เสียงของตัวเอกในหลักฐาน” ถ่ายทอดเป็นข้อความในเกมได้ ไม่ต้องสร้าง TTS/STT หรือฝึกโมเดลเพื่อทดสอบเรื่อง
+
+## 3. ปริมาณงานและเวลา — นับสิ่งที่ต้องผลิตจริง
+
+แยกอย่างน้อย 4 ตัวชี้วัด:
+
+- **Authored content:** ข้อความ/ฉากที่ต้องเขียนทั้งหมด รวมทางที่ผู้เล่นหนึ่งรอบไม่เห็น
+- **Path content:** ข้อความ/ฉากที่หนึ่งรอบเห็น ใช้ประเมินเวลาการเล่น
+- **Conditional variants:** บล็อกข้อความและ payoff ที่เปลี่ยนตามหลาย state ต้อง review ทุกค่าที่เข้าถึงได้
+- **Validation paths:** trace ที่ต้องตรวจ อาจมากกว่าจำนวนฉากหลายเท่า
+
+S0 มี scene ratio 12/8 = **1.5** แต่ยังไม่รวมความยาวไม่เท่ากันและ 8 variant families จึงใช้ 1.5 คูณเวลาเล่นแล้วเรียกต้นทุนจริงไม่ได้ 22 traces ไม่แปลว่าต้องเขียนเรื่องใหม่ 22 ชุด
+
+**สูตรประเมินหลังมีข้อมูล:**
+
+- ชั่วโมงงาน = เวลาเขียน shared + route-exclusive + variants + review/rewrite + integration + art/audio/UI + QA
+- สัปดาห์งานเชิงประมาณ = ชั่วโมงงานที่เหลือ ÷ ชั่วโมงที่ทำงานได้จริงต่อสัปดาห์
+- แยกคนที่เป็นคอขวด เช่นเขียน/ตรวจเรื่อง/ภาพ ไม่บวกชั่วโมงทุกคนแล้วคิดว่าแทนกันได้
+- บันทึกช่วง low/base/high และสมมติฐานของแต่ละรายการ; ใส่ความเผื่อจากการแก้ที่วัดได้ ไม่เลือกเปอร์เซ็นต์ให้ดูแม่นยำโดยไม่มีฐาน
+
+Q17/Q18 ยัง `UNKNOWN` จึง **ไม่มีวันเสร็จหรืองบรวมที่ยืนยัน** ไม่แปลง token throughput ของโมเดลเป็นชั่วโมงบทที่ผ่านคุณภาพแล้ว
+
+### การวัดภาษาไทย
+
+อย่านับ “คำ” ด้วยการแยกช่องว่างแล้วใช้ WPM ภาษาอังกฤษ เป้าหมายเวลาต้องวัดการอ่านบทจริง: เวลาอ่าน, เวลาไตร่ตรอง choice, เวลาเปิด journal และเวลาพัก แยกกัน เก็บจำนวน dialogue blocks/ตัวอักษรตามวิธีเดียวกันไว้เทียบ revision; ไม่อ้างว่าเท่ากับเวลาเล่นโดยตรง
+
+ให้ P14 บันทึกเวลาครั้งแรกกับรอบ replay แยกกัน รายงานช่วงและจุดที่ช้า/สับสน 3–5 คนใช้ค้นปัญหา ไม่ใช้ประกาศค่าเฉลี่ยแทนตลาดทั้งหมด
+
+## 4. วิธีเลือก engine
+
+ตรวจเอกสาร primary sources เมื่อ **2026-10-14** ยังไม่ได้ติดตั้งหรือทดลอง engine ข้อเสนอเลือกจากความเหมาะกับ scope เป็นการประเมิน ไม่ใช่ benchmark
+
+| ตัวเลือก | ข้อเท็จจริงจากเอกสาร | เหมาะเมื่อ / ต้นทุนตามการประเมิน | คำแนะนำ |
+|---|---|---|---|
+| Ren'Py | มี save/load/rollback ใน engine [REF01]; เอกสาร text มีแนวทางไทย/ตัวจัด glyph [REF02] | เกมเน้น VN อ่าน/เลือก; คาดว่าลดงานระบบพื้นฐาน แต่ต้องพิสูจน์ UI และภาษาไทยจริง | เริ่มประเมินตัวนี้หาก Q09/Q10 ไม่บังคับอย่างอื่น |
+| Godot | เอกสารระบุการตั้ง fonts และ workflow localization [REF04/REF05] | ถ้า custom UI/การสำรวจสำคัญ; ต้องประเมิน story runtime และระบบ VN ที่จะสร้างหรือเชื่อมเอง | เลือกเมื่อ feature ต้องการหรือทีมถนัด ไม่เลือกเพียงเพราะ “ยืดหยุ่นกว่า” |
+| ink + Inky | ink เป็น narrative middleware; Inky เล่นทดสอบและ export เรื่องได้ [REF06] | ดีสำหรับทดลองเรื่อง/flow; VN presentation และ platform integration ยังต้องเลือกเพิ่ม | ใช้ถ้างาน authoring ได้ประโยชน์ชัด ไม่เพิ่มเป็น dependency อีกชั้นโดยอัตโนมัติ |
+
+ไม่ใช้ทั้งสามพร้อมกันใน baseline ไม่มีข้อเสนอให้ทำ custom engine หรือ runtime LLM เพื่อเขียนเรื่องสด เกมต้อง replay ความจริงและตรวจผล choice ได้
+
+### สิ่งที่ต้องพิสูจน์ใน P10 ก่อนล็อกเครื่องมือ
+
+| Spike | ข้อมูล/การกระทำที่ใช้ | ผ่านเมื่อ | ถ้าไม่ผ่าน |
+|---|---|---|---|
+| Thai text | บรรทัดยาว สระ/วรรณยุกต์ซ้อน เลข เครื่องหมาย ไทยปนอังกฤษ 3 ขนาดอักษร | ไม่ตัดเครื่องหมายผิด อ่านได้ในจอเป้าหมาย ไม่มี choice ล้น | ทดลอง font/layout settings ที่เอกสารรองรับ แล้วประเมิน candidate ใหม่ |
+| Save lifecycle | ก่อน/หลัง choice, ปิดเปิดแอป, load/rollback และ new game | state/journal/eligibility เหมือนจุดที่บันทึก ไม่รั่วข้ามรอบ | แก้ state ownership ก่อนเพิ่มฉาก |
+| Input/accessibility | keyboard focus, back/confirm, เปิด journal/กลับ scene | ใช้ได้โดยไม่ต้องเมาส์และไม่ accidentally choose | แก้ UX หรือเปลี่ยน component |
+| Target export | เครื่อง/OS จาก Q09 พร้อม asset placeholder | เปิด build จริง เล่น scene และ save/restore ได้ | ห้ามอ้างว่า target supported จาก editor อย่างเดียว |
+| Network baseline | เล่น build ที่ติดตั้งครบในโหมด offline | core game ไม่เรียก online service ตาม D13 ที่เลือก | ถ้าเลือก web ต้องนิยาม first download/cache/offline แยกใหม่ |
+
+Ren'Py ระบุว่าความเข้ากันได้ของ saves ระหว่างรุ่นไม่รับประกัน [REF01] จึงต้อง pin รุ่นที่ทดสอบใน P10 และกำหนด content/save revision policy การอัปเดต engine หลังมีผู้เล่นต้องทดสอบ saves เก่า ไม่ใช่ดูแค่ changelog
+
+เอกสาร Ren'Py ปัจจุบันแนะนำค่า Unicode สำหรับภาษาไทยทั่วไป และแยกกรณี font/shaper รุ่นเก่า [REF02] ข้อนี้ไม่แทนการตรวจวรรณยุกต์ การตัดบรรทัด typewriter และ text scaling ด้วยตา
+
+Ren'Py มี self-voicing ซึ่งพึ่งบริการเสียงของแพลตฟอร์ม [REF03] ต้องทดสอบเสียงภาษาไทย/การอ่าน UI บนเครื่องจริง และตรวจว่าเสียงที่ใช้ทำงาน offline ได้หาก D13 ต้องการ ไม่ถือว่า engine มี feature แล้วเข้าถึงได้ครบ
+
+ถ้า Q09 เลือกเว็บ: Ren'Py มี web export และบันทึกข้อจำกัดของ browser ไว้ [REF07] ต้องเพิ่ม reload/storage persistence, touch, audio unlock, font loading และการกลับจาก background ใน spike; ไม่รับรองว่า mobile web เท่ากับ native build
+
+## 5. ขอบเขตระบบ (logical responsibilities ไม่ใช่โครงสร้างไฟล์โค้ดบังคับ)
+
+| ส่วน | รับผิดชอบ | ไม่ควรทำ |
+|---|---|---|
+| Story definitions | scene/text IDs, conditions, choice effects | ดึงความจริงจาก UI หรือสร้างบทใหม่แบบสุ่ม |
+| State transitions | state ตาม 04, invariant, history | ให้ screen กับ script เขียน flag ซ้ำสองแห่ง |
+| Presentation | บท/choice/journal/ภาพ/เสียง/accessibility | ใช้สี/เสียงอย่างเดียวตัดสินความหมาย หรือคำนวณ ending เอง |
+| Persistence | story snapshot, revision, settings แยกกัน | สะสม knowledge ข้ามรอบโดยไม่ได้ออกแบบ meta-progression |
+| Author validation | route reachability, evidence/ending coverage, asset references | ปล่อย author spoilers ใน journal/debug ของ release |
+
+หากเลือก Ren'Py ให้ใช้ความสามารถ native ก่อน ไม่สร้างระบบ JSON/DSL/scheduler/ฐานข้อมูลเพิ่มเพียงเพื่อ abstraction มีแหล่ง canonical ของ story/state เพียงชุดเดียว จะส่งออกเอกสารช่วย review ได้แต่ต้องประกาศทิศทางการซิงก์
+
+## 6. UX contract หกหน้าที่
+
+| ID | หน้าที่ | Behavior / acceptance |
+|---|---|---|
+| UI01 Story + choices | อ่าน/เลือก/เห็นพันธมิตร | text speed/instant text; รายการ choice สูงพอและเลื่อนถ้าจำเป็น; ข้อความสื่อการกระทำตรงกับผล |
+| UI02 Evidence journal | หลักฐานกับข้อสันนิษฐาน | แสดง source/สิ่งที่รู้/สิ่งที่ยังไม่ยืนยัน; ไอเท็มที่ยังไม่พบไม่สปอยล์ |
+| UI03 Team + Level | ใครร่วมทาง/ทำอะไรได้ | อธิบายความสามารถและข้อผูกมัด ไม่แสดง debug flag names แก่ผู้เล่น |
+| UI04 Save/load | สลับรอบอย่างเข้าใจได้ | ระบุบท/เวลาเล่น/revision; confirm ก่อนทับ slot; load แล้ว state/journal สอดคล้อง |
+| UI05 Settings | text/audio/accessibility | ขยายตัวอักษร ลดเอฟเฟกต์ mute และอ่าน transcript ได้; ไม่เอา setting ไปเป็น story flag |
+| UI06 Menu/pause | เริ่ม/ต่อ/พัก/กลับ | pause ไม่เปลี่ยนเวลาในเรื่อง; new game ไม่เก็บความลับจากรอบเก่า |
+
+Story flow: menu → story ↔ journal/team/settings/save → checkpoint เป็นการสลับจอ ไม่เป็นค่าใช้เวลาในเกม Choice สำคัญต้องบอกเจตนาและความเสี่ยงที่ตัวเอกรู้ โดยไม่แจกผลลัพธ์ลับทั้งหมด
+
+## 7. การผลิตเต็มเกมหลัง slice
+
+P16 วัดเวลาจริง → P17 เลือกขนาด → P18 แปลง beat slots เป็น graph/asset/work packets ตามขนาดนั้น เริ่ม P19 ทีละบทที่เล่นได้พร้อม QA ไม่เขียนเส้นหลักทั้งเกมแล้วค่อยยัดแขนง
+
+ก่อนขยายหนึ่งบทต้องมี: แกนความจริงที่อ้าง, scene/choice/state delta, เบาะแสจำเป็นและทางชดเชย, ผลต่อ ending, asset ใหม่/ใช้ซ้ำ, tests ที่เปลี่ยน และเจ้าของ review อย่าสร้าง epilogue แยกครบทุก combination หากใช้เหตุการณ์ร่วมกับ modifiers ที่ไม่ขัดกันได้
+
+เมื่อ scope เกินกำลัง ให้เสนอรายการลดพร้อมผล: CG/animation → locations/จำนวนตัวละคร → ความยาวฉาก/จำนวนบท โดยคงความสมเหตุผลและผลของ choices; การลด romance/Level/team ต้องกลับไปถามเพราะแตะเป้าหมายที่เจ้าของสนใจ ไม่เงียบลบ
+
+## 8. แหล่งอ้างอิงทางเทคนิค
+
+อ้างอิงเฉพาะความสามารถที่ระบุ ไม่ใช่หลักฐานว่า PROJECT_G ทดสอบแล้ว ตรวจรุ่นและข้อจำกัดใหม่ตอน P10
+
+- **REF01:** [Ren'Py — Saving, Loading, and Rollback](https://www.renpy.org/doc/html/save_load_rollback.html)
+- **REF02:** [Ren'Py — Style Properties (language/shaper)](https://www.renpy.org/doc/html/style_properties.html)
+- **REF03:** [Ren'Py — Self-Voicing](https://www.renpy.org/doc/html/self_voicing.html)
+- **REF04:** [Godot — Using Fonts](https://docs.godotengine.org/en/stable/tutorials/ui/gui_using_fonts.html)
+- **REF05:** [Godot — Internationalizing Games](https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html)
+- **REF06:** [inkle — ink and Inky](https://www.inklestudios.com/ink/)
+- **REF07:** [Ren'Py — Web / HTML5](https://www.renpy.org/doc/html/web.html)

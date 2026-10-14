@@ -1,0 +1,33 @@
+# PROJECT_G: instructions for the next agent
+
+## Scope and authority
+
+- คุยกับเจ้าของโครงการเป็นภาษาไทย
+- คำสั่งล่าสุดจากเจ้าของโครงการมีลำดับสูงสุด รอบ 2026-10-14 อนุญาตให้ตรวจและแก้ **แผน/คำถาม/เอกสารเท่านั้น** ห้ามเริ่ม game code, engine scaffold, install dependencies, CI, generated assets หรือบทเต็มในรอบนี้
+- คำสั่งใหม่ที่อนุญาตงาน implementation เปลี่ยนขอบเขตนี้ได้; การตอบคำถามหรือ merge เอกสารอย่างเดียวไม่ใช่คำสั่งนั้น
+- อย่าเอาข้อจำกัดจาก PROJECT_VELA, PROJECT_SIN, PROJECT_P หรือเครื่องส่วนตัวมาใช้เป็น requirement ของเกมโดยไม่มีหลักฐานในโครงการนี้
+
+## Read only what the task needs
+
+1. อ่าน [สถานะ](docs/00_PROJECT_STATUS.md) และ [handoff](docs/07_HANDOFF.md)
+2. เลือก task ID จาก [แผน](docs/01_MASTER_PLAN.md) แล้วอ่านเฉพาะเอกสารที่ task อ้าง
+3. ตรวจ [คำถาม](docs/02_OPEN_QUESTIONS.md) เฉพาะ decision ที่กระทบงาน
+4. brief ใน `docs/reference/` เป็นประวัติ; ไม่ต้องอ่านทั้งไฟล์ซ้ำทุก session
+
+## Decisions and story
+
+- `CONFIRMED` = มีหลักฐานคำตอบผู้ใช้; `PROPOSED` = ข้อเสนอ; `OPEN` = รอคำตอบ; `DEFERRED` = ยังไม่ถึงช่วงตัดสินใจ
+- ทุกส่วนที่เป็น `S0` ใน blueprint และ slice เป็นข้อเสนอแบบมีเงื่อนไข แม้เขียนละเอียดแล้วก็ไม่ถือว่าผู้ใช้ยืนยัน
+- ความต้องการเรื่อง branching จริง ความสัมพันธ์ ทีม สถานะ และ Level ยืนยันแล้ว; วิธีคำนวณ จำนวน route และ UI ยังไม่ได้ยืนยัน อย่าลบ requirement โดยอ้างลด scope
+- อัปเดตคำตอบใน `02_OPEN_QUESTIONS.md` ก่อน แล้วซิงก์ decision log ใน `00_PROJECT_STATUS.md` และเอกสารที่ได้รับผลกระทบ
+- ถ้าไม่ตอบ ใช้ข้อเสนอเพื่อวิเคราะห์/ร่างต่อได้ แต่ห้ามเปลี่ยนเป็น `CONFIRMED` หรือสร้าง canon แทน
+- ห้ามแก้ความจริงย้อนหลังเพื่อให้ทางเลือกของผู้เล่นดูถูกต้อง; แยก world truth, character belief และ player knowledge
+
+## Working and completion
+
+- ตรวจ branch, diff และ PR ล่าสุดก่อนแก้; ไม่ force-push, merge, publish หรือเปลี่ยน repo visibility โดยไม่มีคำสั่งที่ครอบคลุม
+- อย่าสร้างไฟล์กฎอีกชุดที่แข่งกับไฟล์นี้; ไฟล์หนึ่งเป็นเจ้าของข้อมูลแต่ละประเภทตาม handoff
+- งานเอกสารตรวจลิงก์ ID เงื่อนไขเส้นทาง สถานะ และ diff; ไม่ต้องสร้าง test framework เพื่อเช็กข้อความ
+- ถ้าแก้ S0 ให้ซิงก์ scene graph, edge table, state dictionary, trace count, assets และ validation ด้วยกัน
+- ไม่บอกว่าทดสอบเกมแล้วเมื่อทำเพียงตรวจเอกสาร/จำลองสถานะ; `READY`, `DONE`, `PASSED` ต้องมีหลักฐาน
+- ปิด session ด้วย task ที่เสร็จจริง สิ่งที่ยังติด decision ไฟล์ที่แก้ และ next task ID ไม่ต้องคัดลอกเอกสารทั้งหมดลงแชต
