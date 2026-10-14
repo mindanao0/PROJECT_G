@@ -21,7 +21,7 @@
 | G2 paper slice พร้อมทดลองผลิต | P05/P06/P07/P08/P09; เดินทุก route บนกระดาษแล้วไม่ตัน; มีแพลตฟอร์ม ภาษา engine candidate และขอบเขต spike; ระบุ capacity/budget แม้บางช่อง UNKNOWN | ถ้า capacity UNKNOWN ห้ามสัญญากำหนดส่งเกมเต็ม |
 | G3 เครื่องมือพิสูจน์แล้ว | P10 ผ่านภาษาไทย, input, save/load/rollback, restart และ export บนเป้าหมายแรก | ไม่แปลว่าเกมสนุก หรือรองรับทุก OS |
 | G4 slice ผ่านเชิงประสบการณ์ | P11–P15; state/route tests ผ่าน ไม่มี blocker; playtest ได้หลักฐานเรื่อง agency/fairness/อ่านรู้เรื่อง | ไม่รับรองขนาด 12 บท |
-| G5 ขอบเขตผลิตอนุมัติ | P16/P17/P18; ปริมาณเนื้อหา/asset/QA + capacity + ending coverage + release target สอดคล้องกัน | ไม่อนุมัติเพิ่ม feature ระหว่างผลิตโดยไม่ชั่งต้นทุน |
+| G5 ขอบเขตผลิตอนุมัติ | P16/P17/P18; ตรวจ feasibility ของเป้า 12 บทและกำหนดปริมาณเนื้อหา/asset/QA + capacity + ending coverage + release target สอดคล้องกัน | ไม่อนุมัติเพิ่ม feature ระหว่างผลิตโดยไม่ชั่งต้นทุน |
 | G6 พร้อมเผยแพร่ | P19–P21; full-route QA, content warning, สิทธิ์ assets, save policy, เป้าหมายอุปกรณ์และแพ็กเกจที่ตรวจได้ผ่าน | การเผยแพร่ใน P22 ยังต้องมีคำสั่งเจ้าของที่ครอบคลุม ไม่อ้างว่าจำหน่ายแล้วเพียงเพราะ build สำเร็จ |
 
 G0 คือสิ่งที่ชุดนี้เตรียมไว้ ยังไม่มี G1–G6 ผ่าน การยืนยันของเจ้าของอาจอยู่ในคำตอบแชต ไม่จำเป็นต้องสร้างเอกสารอนุมัติซ้ำ
@@ -51,7 +51,7 @@ flowchart TD
 | ID / สถานะ | งานและ dependency | ผลส่งมอบ / เกณฑ์จบ | ขอบเขต |
 |---|---|---|---|
 | P00 DONE | ตรวจ brief/repo | provenance, R01–R12, F01–F10 ใน 00; เก็บต้นฉบับ | docs |
-| P01 NEXT | รับคำตอบ 02 | บันทึกคำตอบจริงและข้อยกเว้น; decision ทุกข้อมีสถานะ; ไม่ถามสิ่งที่ตอบแล้ว | docs |
+| P01 DONE | รับคำตอบ 02 | Q01–Q08 บันทึกแล้ว; decision ทุกข้อมีสถานะ; ไม่ถามสิ่งที่ตอบแล้ว | docs |
 | P02 DRAFT | premise + truth/rules; หลัง P01 ที่เกี่ยวข้อง | เลือก/แก้ S0 ใน 03; timeline แสดงใครทำอะไร ทำไม ทำได้อย่างไร ทิ้งร่องรอยอะไร | docs |
 | P03 DRAFT | character/knowledge bible; หลัง P02 | ทุกตัวละครมีเป้าหมาย ข้อเชื่อผิด ความลับ ราคาที่รับได้ และเงื่อนไขเปลี่ยนฝ่าย; ไม่มีผู้รู้ทุกอย่าง | docs |
 | P04 DRAFT | ending contract; หลัง P02/P03 | แยกอดีตจริงกับผลปัจจุบัน; ผลลัพธ์แต่ละกลุ่มมี prerequisites, clues, costs และ fallback | docs |
@@ -66,8 +66,8 @@ flowchart TD
 | P13 FUTURE | verification; หลัง P11/P12 | ตรวจ route/state/save/Thai ตาม 06; ไม่ test เฉพาะ happy path | tests ในอนาคต |
 | P14 FUTURE | playtest slice; หลัง P13 ไม่มี blocker | ผู้เล่น 3–5 คนตามเกณฑ์ 06; เวลาอ่าน/การเลือก/จุดสับสนและคำเล่าเหตุผลเป็นหลักฐาน | playtest ในอนาคต |
 | P15 FUTURE | แก้จาก playtest; หลัง P14 | แก้ blocker/ความไม่ยุติธรรม แล้วทดสอบเฉพาะจุดที่เปลี่ยน; สรุปผ่าน G4 หรือกลับ P05/P07 | ตามปัญหาจริง |
-| P16 FUTURE | calibrate ต้นทุนเต็มเกม; หลัง G4 | ต้นทุนจริงต่อฉาก/variant/asset/QA + throughput; เปรียบเทียบ 3–4/6–8/12 บท | docs |
-| P17 FUTURE | เลือก scope/release; หลัง P16 + Q17/Q18/Q25–Q27 | เจ้าของเลือกจำนวนบท route/ending budget และสิ่งตัด; capacity รองรับ; ยังไม่เผยแพร่ | docs |
+| P16 FUTURE | calibrate ต้นทุนเต็มเกม; หลัง G4 | ต้นทุนจริงต่อฉาก/variant/asset/QA + throughput; ประเมินเป้า 12 บทแบบยืดหยุ่น | docs |
+| P17 FUTURE | ตรวจ feasibility/scope/release; หลัง P16 + Q17/Q18/Q25–Q27 | ยืนยันว่าทรัพยากรรองรับเป้า 12 บทหรือเสนอการปรับที่เจ้าของอนุมัติ; กำหนด route/ending budget และสิ่งตัด; ยังไม่เผยแพร่ | docs |
 | P18 FUTURE | full beat/route/production plan; หลัง P17 | ขยายหน้าที่เรื่องใน 03 ตามขนาดที่เลือก; ทุก reveal/ending มี clue path; backlog ต่อบทและ asset reuse | docs |
 | P19 FUTURE | ผลิตทีละชุดหลัง G5 | เริ่มบทแรก → บทถัดไป; แต่ละชุดเล่นได้ ตรวจ continuity/state/save และปรับต้นทุนจริง | code/story/assets |
 | P20 FUTURE | content complete / localization ที่เลือก | ทุก route และ ending ที่ตกลงมีเนื้อหาครบ; no placeholders; แปลตาม text IDs เมื่ออยู่ใน scope | content |
@@ -80,7 +80,7 @@ flowchart TD
 
 ### P01: สรุปคำตอบหนึ่งรอบ
 
-Input: 00/02 + คำตอบเจ้าของ → Output: answer log และ decision table ที่ซิงก์ → Done: ไม่คง `UNANSWERED` ในข้อที่ตอบจริงและไม่ยืนยันส่วนที่ยังไม่ได้ตอบ
+Input: 00/02 + คำตอบเจ้าของ → Output: answer log และ decision table ที่ซิงก์ → Done: ไม่คง `UNANSWERED` ในข้อที่ตอบจริงและไม่ยืนยันส่วนที่ยังไม่ได้ตอบ. ณ 2026-10-14 Q01–Q08 เสร็จ; Q21 และข้อมูลกำลังผลิตเป็นคำถามภายหลังตาม dependency.
 
 ถ้ายังไม่มีคำตอบ: จัดลำดับคำถามตาม gate/ผลกระทบได้ ตรวจ S0 ต่อได้ ห้ามตอบแทนเจ้าของ
 
@@ -98,7 +98,7 @@ Input: truth/character/ending ที่อนุมัติ + 04 → Output: gr
 
 | สิ่งที่ยังไม่รู้ | งานที่ทำต่อได้ | สิ่งที่ต้องคงว่าไม่สรุป |
 |---|---|---|
-| Q01–Q06 | ตรวจตรรกะ S0, เปรียบเทียบ trade-offs, ทำ generic contracts | canon, ผู้ร้าย, romance, deaths |
+| Q01–Q08 | ปรับ premise ตามทิศทางที่ยืนยัน; ตรวจตรรกะ S0 แบบ PROPOSED | รายละเอียด canon, ผู้ร้าย, คู่รัก/จำนวน routes, deaths; ขนาด 12 บทยังไม่ใช่ commitment ต่อเวลา/งบ |
 | Q09/Q10 | ออกแบบจอ/state แบบไม่ขึ้นกับ engine, ทวน official docs | exporter, mobile support, engine lock |
 | Q17/Q18 | นับฉาก/asset/variant, ทำสูตร capacity | วันเสร็จ งบรวม จำนวนคน |
 | Q19/Q20 | asset IDs, reuse plan, requirements | final style, AI permission, สัญญาจ้าง |
