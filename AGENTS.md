@@ -11,7 +11,7 @@
 
 1. อ่าน [สถานะ](docs/00_PROJECT_STATUS.md) และ [handoff](docs/07_HANDOFF.md)
 2. เลือก task ID จาก [แผน](docs/01_MASTER_PLAN.md) แล้วอ่านเฉพาะเอกสารที่ task อ้าง
-3. ตรวจ [คำถาม](docs/02_OPEN_QUESTIONS.md) เฉพาะ decision ที่กระทบงาน
+3. เปิด [ดัชนีคำถาม](docs/02_OPEN_QUESTIONS.md) แล้วอ่านเฉพาะหมวดหรือ Q ที่กระทบงานใน `docs/questions/topics/`; ค้นเลขได้จาก `docs/questions/index/`
 4. brief ใน `docs/reference/` เป็นประวัติ; ไม่ต้องอ่านทั้งไฟล์ซ้ำทุก session
 
 ## Decisions and story
@@ -19,7 +19,8 @@
 - `CONFIRMED` = มีหลักฐานคำตอบผู้ใช้; `PROPOSED` = ข้อเสนอ; `OPEN` = รอคำตอบ; `DEFERRED` = ยังไม่ถึงช่วงตัดสินใจ
 - ทุกส่วนที่เป็น `S0` ใน blueprint และ slice เป็นข้อเสนอแบบมีเงื่อนไข แม้เขียนละเอียดแล้วก็ไม่ถือว่าผู้ใช้ยืนยัน
 - ความต้องการเรื่อง branching จริง ความสัมพันธ์ ทีม สถานะ และ Level ยืนยันแล้ว; วิธีคำนวณ จำนวน route และ UI ยังไม่ได้ยืนยัน อย่าลบ requirement โดยอ้างลด scope
-- อัปเดตคำตอบใน `02_OPEN_QUESTIONS.md` ก่อน แล้วซิงก์ decision log ใน `00_PROJECT_STATUS.md` และเอกสารที่ได้รับผลกระทบ
+- บันทึกคำตอบในไฟล์เจ้าของ Q ภายใต้ `docs/questions/topics/` ก่อน แล้วซิงก์ decision log ใน `00_PROJECT_STATUS.md` และเอกสารที่ได้รับผลกระทบ; `02_OPEN_QUESTIONS.md` เป็นดัชนี ไม่ต่อคำตอบทุกเรื่องกลับไฟล์นี้
+- Q ใหม่เลือกหมวดก่อน เพิ่มในแผนที่เลข `docs/questions/index/`; Q ที่แก้ไขเพิ่มประวัติพร้อมวันที่ใต้ข้อเดิม ไม่คัดคำตอบไปแก้หลายหมวด อ่านคำตอบล่าสุดและข้อแก้ไขข้าม Q ก่อนใช้
 - ถ้าไม่ตอบ ใช้ข้อเสนอเพื่อวิเคราะห์/ร่างต่อได้ แต่ห้ามเปลี่ยนเป็น `CONFIRMED` หรือสร้าง canon แทน
 - ห้ามแก้ความจริงย้อนหลังเพื่อให้ทางเลือกของผู้เล่นดูถูกต้อง; แยก world truth, character belief และ player knowledge
 
