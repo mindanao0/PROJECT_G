@@ -9,7 +9,7 @@
 | หมวด | ไฟล์เจ้าของคำถามและคำตอบ | จำนวน Q |
 |---|---|---:|
 | แกนเรื่อง คดี และตอนจบ | [ส่วน 1](questions/topics/01_story_case_endings.md) | 34 |
-| กลุ่มตัวละคร ชื่อ และบทบาทความสัมพันธ์ | [ส่วน 1](questions/topics/02_cast_and_relationship_setup.md)  · [ส่วน 2](questions/topics/02_old_friends_background_02.md)  · [ส่วน 3](questions/topics/02_old_friend_life_03.md) | 76 |
+| กลุ่มตัวละคร ชื่อ และบทบาทความสัมพันธ์ | [ส่วน 1](questions/topics/02_cast_and_relationship_setup.md)  · [ส่วน 2](questions/topics/02_old_friends_background_02.md)  · [ส่วน 3](questions/topics/02_old_friend_life_03.md)  · [ส่วน 4](questions/topics/02_elena_background_work_04.md) | 100 |
 | ความรัก ความสัมพันธ์ และการเลือกคู่ | [ส่วน 1](questions/topics/03_romance_and_relationships.md) | 8 |
 | จัดทีม ทักษะ ภารกิจ และผลลัพธ์ | [ส่วน 1](questions/topics/04_dispatch_skills_missions_01.md) · [ส่วน 2](questions/topics/04_dispatch_skills_missions_02.md) | 63 |
 | เวลา เซฟ และตัวเลือกด่วน | [ส่วน 1](questions/topics/05_time_save_and_choices.md) | 13 |
@@ -66,3 +66,5 @@
 **Q791–Q814 รับคำตอบครบแล้ว 2026-10-20:** หมวด02 ส่วน2 — วงสนิท2คนรวมเอเลนา; เพื่อนอีกคนยังไม่ผูกชื่อ/ID. Eliasกับเพื่อนอีกคนอายุ30; อายุเอเลนาเลื่อนไปทวนภายหลัง; ขอบเขตความรู้และคำตอบรายข้อดูไฟล์หมวด. ไม่เพิ่มcast ไม่ร่างประวัติหรือภาพ.
 
 **Q815–Q838 รับคำตอบครบแล้ว 2026-10-20:** หมวด02 ส่วน3 — บทบาทเพื่อนอีกคนชื่อ Samir Haddad ใช้ชื่อจริงเป็นหลัก อยู่ฝั่งชีวิตส่วนตัว/คุยแนะนำ ไม่ใช่ตัวหลักในการสืบ. ยังไม่ผูกID ไม่เพิ่มcastและไม่ร่างประวัติหรือภาพ.
+
+**ชุดถัดไป Q839–Q862:** OPEN ในหมวด02 ส่วน4 — พื้นเพและเส้นทางงานเอเลนา; อายุยังพักไว้ ไม่ยืนยันหน้าที่วิชาชีพ/สถานะคลินิกจากข้อเสนอ และไม่ร่างประวัติหรือภาพ.
