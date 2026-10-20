@@ -9,7 +9,7 @@
 | หมวด | ไฟล์เจ้าของคำถามและคำตอบ | จำนวน Q |
 |---|---|---:|
 | แกนเรื่อง คดี และตอนจบ | [ส่วน 1](questions/topics/01_story_case_endings.md) | 34 |
-| กลุ่มตัวละคร ชื่อ และบทบาทความสัมพันธ์ | [ส่วน 1](questions/topics/02_cast_and_relationship_setup.md) | 28 |
+| กลุ่มตัวละคร ชื่อ และบทบาทความสัมพันธ์ | [ส่วน 1](questions/topics/02_cast_and_relationship_setup.md)  · [ส่วน 2](questions/topics/02_old_friends_background_02.md) | 52 |
 | ความรัก ความสัมพันธ์ และการเลือกคู่ | [ส่วน 1](questions/topics/03_romance_and_relationships.md) | 8 |
 | จัดทีม ทักษะ ภารกิจ และผลลัพธ์ | [ส่วน 1](questions/topics/04_dispatch_skills_missions_01.md) · [ส่วน 2](questions/topics/04_dispatch_skills_missions_02.md) | 63 |
 | เวลา เซฟ และตัวเลือกด่วน | [ส่วน 1](questions/topics/05_time_save_and_choices.md) | 13 |
@@ -46,6 +46,7 @@
 - [Q501–Q600](questions/index/q501_q600.md)
 - [Q601–Q700](questions/index/q601_q700.md)
 - [Q701–Q800](questions/index/q701_q800.md)
+- [Q801–Q900](questions/index/q801_q900.md)
 
 ## บริบทเก่า
 
@@ -61,3 +62,5 @@
 **Q743–Q766 รับคำตอบครบแล้ว 2026-10-20:** หมวด24 ส่วน4 — ครอบครัว การเรียน และงานก่อนปัจจุบัน; ใช้คำตอบเจ้าของล่าสุด. Q750 ยังเลื่อนรายละเอียด ไม่ร่างประวัติหรือภาพ.
 
 **Q767–Q790 รับคำตอบครบแล้ว 2026-10-20:** หมวด24 ส่วน5 — C00 ใช้ชื่อ Elias Voss และชื่อเรียกสั้น Eli แทนชื่อทำงาน Adrian; คำตอบรายข้อและข้อแก้ไขอยู่ในไฟล์หมวด. ยังไม่ร่างประวัติหรือภาพ.
+
+**ชุดถัดไป Q791–Q814:** OPEN ในหมวด02 ส่วน2 — การนับวงสนิทเดิมและพื้นเพบทบาทเพื่อนอีกคน; ไม่ผูกชื่อ/IDหรือเพิ่มcast ไม่ร่างประวัติหรือภาพ.
