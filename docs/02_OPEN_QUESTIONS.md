@@ -31,7 +31,7 @@
 | แนวภาพ รูปลักษณ์ และชุด | [ส่วน 1](questions/topics/21_visual_direction.md) | 7 |
 | วัฒนธรรม ครอบครัว การเรียน และสังคม | [ส่วน 1](questions/topics/22_culture_family_education.md) | 23 |
 | เงิน รายได้ ค่าครองชีพ และหนี้ | [ส่วน 1](questions/topics/23_money_cost_of_living.md) | 9 |
-| ตัวเอก ตัวตน ครอบครัว การเรียน และงาน | [ส่วน 1](questions/topics/24_protagonist_background_family_01.md) · [ส่วน 2](questions/topics/24_protagonist_background_family_02.md)  · [ส่วน 3](questions/topics/24_protagonist_identity_personality_03.md)  · [ส่วน 4](questions/topics/24_protagonist_family_education_work_04.md) | 117 |
+| ตัวเอก ตัวตน ครอบครัว การเรียน และงาน | [ส่วน 1](questions/topics/24_protagonist_background_family_01.md) · [ส่วน 2](questions/topics/24_protagonist_background_family_02.md)  · [ส่วน 3](questions/topics/24_protagonist_identity_personality_03.md)  · [ส่วน 4](questions/topics/24_protagonist_family_education_work_04.md)  · [ส่วน 5](questions/topics/24_protagonist_names_work_memory_05.md) | 141 |
 | ตัวเอก กิจวัตร งานอดิเรก และพื้นที่ส่วนตัว | [ส่วน 1](questions/topics/25_protagonist_daily_life_hobbies.md) | 27 |
 | ฐานทีม ข้อมูลทีม และที่พักพยาน | [ส่วน 1](questions/topics/26_team_base_witness_housing.md) | 7 |
 | ตัวเอก อุปกรณ์ในตัว สุขภาพ และข้อจำกัดภาคสนาม | [ส่วน 1](questions/topics/27_protagonist_implants_health.md) | 12 |
@@ -59,3 +59,5 @@
 **Q719–Q742 รับคำตอบครบแล้ว 2026-10-19:** หมวด24 ส่วน3 — ใช้คำตอบเจ้าของและข้อแก้ไขล่าสุด; ระยะ/สถานที่ทดลองยังเลื่อน และชื่อเต็มยังไม่เลือก. ยังไม่ร่างประวัติหรือภาพ.
 
 **Q743–Q766 รับคำตอบครบแล้ว 2026-10-20:** หมวด24 ส่วน4 — ครอบครัว การเรียน และงานก่อนปัจจุบัน; ใช้คำตอบเจ้าของล่าสุด. Q750 ยังเลื่อนรายละเอียด ไม่ร่างประวัติหรือภาพ.
+
+**ชุดถัดไป Q767–Q790:** OPEN ในหมวด24 ส่วน5 — ชื่อ งาน และความเกี่ยวข้องส่วนตัวกับความทรงจำ; ยังไม่มีคำตอบ ไม่ร่างประวัติหรือภาพ.
