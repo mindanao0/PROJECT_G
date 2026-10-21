@@ -9,7 +9,7 @@
 | หมวด | ไฟล์เจ้าของคำถามและคำตอบ | จำนวน Q |
 |---|---|---:|
 | แกนเรื่อง คดี และตอนจบ | [ส่วน 1](questions/topics/01_story_case_endings.md) | 34 |
-| กลุ่มตัวละคร ชื่อ และบทบาทความสัมพันธ์ | [ส่วน 1](questions/topics/02_cast_and_relationship_setup.md)  · [ส่วน 2](questions/topics/02_old_friends_background_02.md)  · [ส่วน 3](questions/topics/02_old_friend_life_03.md)  · [ส่วน 4](questions/topics/02_elena_background_work_04.md)  · [ส่วน 5](questions/topics/02_team_structure_before_profiles_05.md)  · [ส่วน 6](questions/topics/02_team_roles_operations_06.md) | 122 |
+| กลุ่มตัวละคร ชื่อ และบทบาทความสัมพันธ์ | [ส่วน 1](questions/topics/02_cast_and_relationship_setup.md)  · [ส่วน 2](questions/topics/02_old_friends_background_02.md)  · [ส่วน 3](questions/topics/02_old_friend_life_03.md)  · [ส่วน 4](questions/topics/02_elena_background_work_04.md)  · [ส่วน 5](questions/topics/02_team_structure_before_profiles_05.md)  · [ส่วน 6](questions/topics/02_team_roles_operations_06.md)  · [ส่วน 7](questions/topics/02_team_twelve_roles_stakes_07.md) | 138 |
 | ความรัก ความสัมพันธ์ และการเลือกคู่ | [ส่วน 1](questions/topics/03_romance_and_relationships.md) | 8 |
 | จัดทีม ทักษะ ภารกิจ และผลลัพธ์ | [ส่วน 1](questions/topics/04_dispatch_skills_missions_01.md) · [ส่วน 2](questions/topics/04_dispatch_skills_missions_02.md) | 63 |
 | เวลา เซฟ และตัวเลือกด่วน | [ส่วน 1](questions/topics/05_time_save_and_choices.md) | 13 |
@@ -72,3 +72,5 @@
 **โครงรอบ Q863–Q868 (มีคำแก้ไขจำนวนใน Q869):** [Q863–Q868](questions/topics/02_team_structure_before_profiles_05.md) รับAครบ6ข้อ. เอเลนาตัวหลัก/เส้นรัก งานคลินิกทั่วไป; มายาผู้ชวน; ทีมเป็นสำนักงานอิสระค่อยพัฒนา ทีมเต็ม8รวมElias ฐานเช่าร่วม. ต่อไปจัดบทบาท/ลำดับเข้าร่วมก่อนประวัติ. Q839–Q862ยังพักและไม่ถือว่ารับคำแนะนำทั้งชุด.
 
 **Q869–Q884 รับคำตอบแล้ว 2026-10-20:** หมวด02ส่วน6 — ปรับ8เป็นกรอบทำงานราว12 ยังไม่ล็อกจำนวน/รายชื่อและQ875เลื่อนจำนวนตามroute. เส้นรัก4คนพร้อมแนวคาแรกเตอร์อยู่Q869; จัดโครงใหม่ก่อนประวัติ Q839–Q862ยังพัก ไม่ทำภาพ.
+
+**ชุดถัดไป Q885–Q900 — 2026-10-21:** OPEN ในหมวด02ส่วน7 พร้อมตารางเสนอ12ตำแหน่งก่อนเลือก. ถามความต่างทักษะ จังหวะเข้าร่วม หลักการสูญเสีย และน้ำหนักเส้นรัก; ไม่ถามQ875ซ้ำ ไม่เลือกผู้ตายหรือรับรายชื่อ12เอง. Q839–Q862ยังพัก ไม่มีประวัติ/ภาพ.
