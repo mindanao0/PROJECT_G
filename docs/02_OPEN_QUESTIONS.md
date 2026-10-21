@@ -1,5 +1,7 @@
 # 02 — ดัชนีคำถามและคำตอบ
 
+**ล่าสุด2026-10-21:** รับQ902–Q925แล้ว แบ่งกฎเทคหมวด13ส่วน2 และรัฐ/องค์กรหมวด10ส่วน2. ชุดถัดไปQ926–Q941หมวด10ส่วน3ยังOPENตามQ925=C. เลขเดิมคงไว้ ไม่เติมคำตอบประวัติQ839–Q862.
+
 อัปเดต 2026-10-19: ย้ายไฟล์รวมเดิมออกเป็นหมวดแล้ว คง Q01–Q694 และ Q04.1–Q04.5 พร้อมประวัติการตอบ/แก้ไขทั้งหมด. ไฟล์นี้เป็นดัชนี ไม่ใช่ที่ต่อบันทึกคำตอบทุกเรื่อง.
 
 [วิธีบันทึกและเลือกไฟล์](questions/README.md) · [หลักฐานตรวจการย้าย](questions/MIGRATION.md)
@@ -17,10 +19,10 @@
 | แพลตฟอร์ม ภาษา การผลิต และเผยแพร่ | [ส่วน 1](questions/topics/07_platform_production_release.md) | 15 |
 | เมือง ภูมิประเทศ ย่าน และประวัติวิกฤต | [ส่วน 1](questions/topics/08_city_geography_history.md) | 31 |
 | ปฏิทิน ฤดู และลำดับเหตุการณ์โลก | [ส่วน 1](questions/topics/09_calendar_seasons_timeline.md) | 27 |
-| กลุ่มอำนาจ บริษัท และเครือข่าย | [ส่วน 1](questions/topics/10_power_companies_networks.md) | 19 |
+| กลุ่มอำนาจ บริษัท และเครือข่าย | [ส่วน 1](questions/topics/10_power_companies_networks.md) · [ส่วน 2: รัฐ/องค์กร](questions/topics/10_state_criminal_conflict_02.md) · [ส่วน 3: โครงผู้นำ](questions/topics/10_faction_leadership_03.md) | 52 |
 | สถาบัน ศูนย์หลัก สถานที่ลับ และสิทธิ์ | [ส่วน 1](questions/topics/11_institution_sites_access.md) | 43 |
 | กฎหมายความจำและการบังคับใช้ | [ส่วน 1](questions/topics/12_memory_law_enforcement.md) | 11 |
-| อุปกรณ์ในตัว สิทธิ์ และตลาดอุปกรณ์ | [ส่วน 1](questions/topics/13_implants_and_device_market.md) | 31 |
+| อุปกรณ์ในตัว สิทธิ์ และตลาดอุปกรณ์ | [ส่วน 1](questions/topics/13_implants_and_device_market.md) · [ส่วน 2: เพิ่มประสิทธิภาพ/ถ่ายทอดทักษะ](questions/topics/13_enhancement_skill_transfer_02.md) | 38 |
 | บริการความจำ การลบ เครื่องมือ และสาร | [ส่วน 1](questions/topics/14_memory_services_substances_01.md) · [ส่วน 2](questions/topics/14_memory_services_substances_02.md) | 66 |
 | อาคารพัก ห้อง และการใช้พื้นที่ | [ส่วน 1](questions/topics/15_housing_building_room.md) | 32 |
 | บริษัท ออฟฟิศ และงานทั่วไป | [ส่วน 1](questions/topics/16_office_workplace.md) | 25 |
@@ -76,4 +78,4 @@
 
 **ชุดถัดไป Q885–Q900 — 2026-10-21:** OPEN ในหมวด02ส่วน7 พร้อมตารางเสนอ12ตำแหน่งก่อนเลือก. ถามความต่างทักษะ จังหวะเข้าร่วม หลักการสูญเสีย และน้ำหนักเส้นรัก; ไม่ถามQ875ซ้ำ ไม่เลือกผู้ตายหรือรับรายชื่อ12เอง. Q839–Q862ยังพัก ไม่มีประวัติ/ภาพ.
 
-**ลำดับล่าสุด2026-10-21:** Q885–Q900และ[Q901](questions/topics/01_main_plot_alternatives_02.md#q901)รับแล้ว. ใช้แกนมนุษย์รุ่นทดลองผสมตลาดความสามารถ รัฐเจ้าของโครงการ องค์กรร้ายเป็นอีกฝ่าย; ดู[โครงปัจจุบัน](story/01_experimental_humans_factions.md). P02ยังวางกฎ/คดีใหม่. Q902ยังไม่สร้าง; Q839–Q862ยังพัก ไม่ร่างประวัติ/ภาพ.
+**ลำดับล่าสุด2026-10-21:** Q885–Q900และ[Q901](questions/topics/01_main_plot_alternatives_02.md#q901)รับแล้ว. ใช้แกนมนุษย์รุ่นทดลองผสมตลาดความสามารถ รัฐเจ้าของโครงการ องค์กรร้ายเป็นอีกฝ่าย; ดู[โครงปัจจุบัน](story/01_experimental_humans_factions.md). P02ยังวางกฎ/คดีใหม่. Q902–Q925ตอบแล้ว; Q926–Q941OPEN; Q839–Q862ยังพัก ไม่ร่างประวัติ/ภาพ.
