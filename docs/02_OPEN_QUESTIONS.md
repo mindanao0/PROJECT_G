@@ -1,8 +1,10 @@
 # 02 — ดัชนีคำถามและคำตอบ
 
-**รับQ926–Q941แล้ว2026-10-21:** [ต้นทางหมวด10ส่วน3](questions/topics/10_faction_leadership_03.md). Q927=A+B+C, Q928=C, Q932=A+B; ข้ออื่นรับคำแนะนำ รวมQ939เลื่อนวิธีจบ. Q942ยังไม่สร้าง ไม่เปลี่ยนสถานะประวัติQ839–Q862.
+**ล่าสุด2026-10-22:** รับQ942–Q961แล้ว แบ่งหมวด10ส่วน4(หน่วย/องค์กร/งานถัดไป), หมวด13ส่วน2(เทค), หมวด11(Q947สถานที่) และหมวด04ส่วน2(ภารกิจ). Q962ยังไม่สร้าง. ถัดไปเสนอผังเครือข่ายตามQ961=A; Q839–Q862ยังพัก.
 
-**ล่าสุด2026-10-21:** รับQ902–Q925แล้ว แบ่งกฎเทคหมวด13ส่วน2 และรัฐ/องค์กรหมวด10ส่วน2. Q926–Q941หมวด10ส่วน3รับแล้ว; Q939เลื่อนวิธีจบ และQ942ยังไม่สร้าง. เลขเดิมคงไว้ ไม่เติมคำตอบประวัติQ839–Q862.
+**รับQ926–Q941แล้ว2026-10-21:** [ต้นทางหมวด10ส่วน3](questions/topics/10_faction_leadership_03.md). Q927=A+B+C, Q928=C, Q932=A+B; ข้ออื่นรับคำแนะนำ รวมQ939เลื่อนวิธีจบ. Q942–Q961รับแล้ว; Q962ยังไม่สร้าง ไม่เปลี่ยนสถานะประวัติQ839–Q862.
+
+**ล่าสุด2026-10-21:** รับQ902–Q925แล้ว แบ่งกฎเทคหมวด13ส่วน2 และรัฐ/องค์กรหมวด10ส่วน2. Q926–Q941หมวด10ส่วน3รับแล้ว; Q939เลื่อนวิธีจบ และQ942–Q961รับแล้ว; Q962ยังไม่สร้าง. เลขเดิมคงไว้ ไม่เติมคำตอบประวัติQ839–Q862.
 
 อัปเดต 2026-10-19: ย้ายไฟล์รวมเดิมออกเป็นหมวดแล้ว คง Q01–Q694 และ Q04.1–Q04.5 พร้อมประวัติการตอบ/แก้ไขทั้งหมด. ไฟล์นี้เป็นดัชนี ไม่ใช่ที่ต่อบันทึกคำตอบทุกเรื่อง.
 
@@ -15,16 +17,16 @@
 | แกนเรื่อง คดี และตอนจบ | [ส่วน 1](questions/topics/01_story_case_endings.md)  · [ส่วน 2](questions/topics/01_main_plot_alternatives_02.md) | 35 |
 | กลุ่มตัวละคร ชื่อ และบทบาทความสัมพันธ์ | [ส่วน 1](questions/topics/02_cast_and_relationship_setup.md)  · [ส่วน 2](questions/topics/02_old_friends_background_02.md)  · [ส่วน 3](questions/topics/02_old_friend_life_03.md)  · [ส่วน 4](questions/topics/02_elena_background_work_04.md)  · [ส่วน 5](questions/topics/02_team_structure_before_profiles_05.md)  · [ส่วน 6](questions/topics/02_team_roles_operations_06.md)  · [ส่วน 7](questions/topics/02_team_twelve_roles_stakes_07.md) | 138 |
 | ความรัก ความสัมพันธ์ และการเลือกคู่ | [ส่วน 1](questions/topics/03_romance_and_relationships.md) | 8 |
-| จัดทีม ทักษะ ภารกิจ และผลลัพธ์ | [ส่วน 1](questions/topics/04_dispatch_skills_missions_01.md) · [ส่วน 2](questions/topics/04_dispatch_skills_missions_02.md) | 63 |
+| จัดทีม ทักษะ ภารกิจ และผลลัพธ์ | [ส่วน 1](questions/topics/04_dispatch_skills_missions_01.md) · [ส่วน 2](questions/topics/04_dispatch_skills_missions_02.md) | 69 |
 | เวลา เซฟ และตัวเลือกด่วน | [ส่วน 1](questions/topics/05_time_save_and_choices.md) | 13 |
 | หน้าจอ หลักฐาน และการแบ่งข้อมูล | [ส่วน 1](questions/topics/06_interface_evidence_knowledge.md) | 22 |
 | แพลตฟอร์ม ภาษา การผลิต และเผยแพร่ | [ส่วน 1](questions/topics/07_platform_production_release.md) | 15 |
 | เมือง ภูมิประเทศ ย่าน และประวัติวิกฤต | [ส่วน 1](questions/topics/08_city_geography_history.md) | 31 |
 | ปฏิทิน ฤดู และลำดับเหตุการณ์โลก | [ส่วน 1](questions/topics/09_calendar_seasons_timeline.md) | 27 |
-| กลุ่มอำนาจ บริษัท และเครือข่าย | [ส่วน 1](questions/topics/10_power_companies_networks.md) · [ส่วน 2: รัฐ/องค์กร](questions/topics/10_state_criminal_conflict_02.md) · [ส่วน 3: โครงผู้นำ](questions/topics/10_faction_leadership_03.md) | 52 |
-| สถาบัน ศูนย์หลัก สถานที่ลับ และสิทธิ์ | [ส่วน 1](questions/topics/11_institution_sites_access.md) | 43 |
+| กลุ่มอำนาจ บริษัท และเครือข่าย | [ส่วน 1](questions/topics/10_power_companies_networks.md) · [ส่วน 2: รัฐ/องค์กร](questions/topics/10_state_criminal_conflict_02.md) · [ส่วน 3: โครงผู้นำ](questions/topics/10_faction_leadership_03.md) · [ส่วน 4: หน่วยและลูกน้อง](questions/topics/10_network_units_04.md) | 58 |
+| สถาบัน ศูนย์หลัก สถานที่ลับ และสิทธิ์ | [ส่วน 1](questions/topics/11_institution_sites_access.md) | 44 |
 | กฎหมายความจำและการบังคับใช้ | [ส่วน 1](questions/topics/12_memory_law_enforcement.md) | 11 |
-| อุปกรณ์ในตัว สิทธิ์ และตลาดอุปกรณ์ | [ส่วน 1](questions/topics/13_implants_and_device_market.md) · [ส่วน 2: เพิ่มประสิทธิภาพ/ถ่ายทอดทักษะ](questions/topics/13_enhancement_skill_transfer_02.md) | 38 |
+| อุปกรณ์ในตัว สิทธิ์ และตลาดอุปกรณ์ | [ส่วน 1](questions/topics/13_implants_and_device_market.md) · [ส่วน 2: เพิ่มประสิทธิภาพ/ถ่ายทอดทักษะ](questions/topics/13_enhancement_skill_transfer_02.md) | 45 |
 | บริการความจำ การลบ เครื่องมือ และสาร | [ส่วน 1](questions/topics/14_memory_services_substances_01.md) · [ส่วน 2](questions/topics/14_memory_services_substances_02.md) | 66 |
 | อาคารพัก ห้อง และการใช้พื้นที่ | [ส่วน 1](questions/topics/15_housing_building_room.md) | 32 |
 | บริษัท ออฟฟิศ และงานทั่วไป | [ส่วน 1](questions/topics/16_office_workplace.md) | 25 |
