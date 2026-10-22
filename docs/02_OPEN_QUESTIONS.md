@@ -1,20 +1,22 @@
 # 02 — ดัชนีคำถามและคำตอบ
 
-**ล่าสุด2026-10-22:** รับ[Q1042–Q1061หมวด02ส่วน9](questions/topics/02_team_specialties_equipment_09.md)ครบแล้ว Q1050=Cข้ออื่นรับคำแนะนำ พร้อมแนวเสนออาวุธเฉพาะตัว. [ตารางทีมตามQ1061](story/04_team_roles_and_entry.md)แยกหน้าที่รับแล้วกับรายละเอียดที่ยังเสนอ. Q1062ยังไม่สร้าง; Q839–Q862ยังพัก.
+**ล่าสุด2026-10-22:** รับQ1062–Q1081ครบ แยกQ1062หมวด02ส่วน9, Q1063–Q1077หมวด13ส่วน3, Q1078–Q1081หมวด20ส่วน2. ทุกคนมีอาวุธประจำตัว ทีมไม่รับทักษะจากโครงการ; ถัดไปคำถามประวัติMayaตามQ1081=A. Q1082ยังไม่สร้าง และQ839–Q862ของElenaยังพัก.
 
-**ล่าสุด2026-10-22:** รับ[Q1022–Q1041หมวด02ส่วน8](questions/topics/02_team_integration_before_midpoint_08.md)ครบแล้ว ปรับรวมทีม/คลี่ปมก่อนจบครึ่งแรกตามQ1022=B. [ตารางปรับ](story/03_case_sequence_review.md)ยังPROPOSEDรายละเอียด. Q1042–Q1061รับแล้ว; Q1062ยังไม่สร้าง; Q1041=Aถัดไปบทบาทและจังหวะสมาชิกที่เหลือ. Q839–Q862ยังพัก.
+**ล่าสุด2026-10-22:** รับ[Q1042–Q1061หมวด02ส่วน9](questions/topics/02_team_specialties_equipment_09.md)ครบแล้ว Q1050=Cข้ออื่นรับคำแนะนำ พร้อมแนวเสนออาวุธเฉพาะตัว. [ตารางทีมตามQ1061](story/04_team_roles_and_entry.md)แยกหน้าที่รับแล้วกับรายละเอียดที่ยังเสนอ. Q1062–Q1081รับแล้ว; Q1082ยังไม่สร้าง; Q839–Q862ยังพัก.
 
-**ล่าสุด2026-10-22:** รับ[Q1002–Q1021ลำดับคดี](questions/topics/01_case_progression_04.md)ครบแล้ว Q1015เลื่อนเหตุรายลูกน้อง. [ผลทวนและตารางเสนอ](story/03_case_sequence_review.md)ตามQ1021=A+BยังมีจุดOPEN ไม่รับตารางทั้งชุดเป็นcanon. Q1022–Q1041รับแล้ว; Q1042–Q1061รับแล้ว; Q1062ยังไม่สร้าง; Q839–Q862ยังพัก.
+**ล่าสุด2026-10-22:** รับ[Q1022–Q1041หมวด02ส่วน8](questions/topics/02_team_integration_before_midpoint_08.md)ครบแล้ว ปรับรวมทีม/คลี่ปมก่อนจบครึ่งแรกตามQ1022=B. [ตารางปรับ](story/03_case_sequence_review.md)ยังPROPOSEDรายละเอียด. Q1042–Q1061รับแล้ว; Q1062–Q1081รับแล้ว; Q1082ยังไม่สร้าง; Q1041=Aถัดไปบทบาทและจังหวะสมาชิกที่เหลือ. Q839–Q862ยังพัก.
 
-**ล่าสุด2026-10-22:** รับ[Q982–Q1001คดีเปิดเรื่อง](questions/topics/01_opening_case_03.md)ครบแล้ว พร้อมข้อแก้ไขQ987/Q992/Q997. เพิ่มแผนที่Q1001–Q1100; Q1002–Q1021รับแล้ว; Q1022–Q1041รับแล้ว; Q1042–Q1061รับแล้ว; Q1062ยังไม่สร้าง. ถัดไปลำดับคดีและจังหวะทีมตามQ1001=A; Q839–Q862ยังพัก.
+**ล่าสุด2026-10-22:** รับ[Q1002–Q1021ลำดับคดี](questions/topics/01_case_progression_04.md)ครบแล้ว Q1015เลื่อนเหตุรายลูกน้อง. [ผลทวนและตารางเสนอ](story/03_case_sequence_review.md)ตามQ1021=A+BยังมีจุดOPEN ไม่รับตารางทั้งชุดเป็นcanon. Q1022–Q1041รับแล้ว; Q1042–Q1061รับแล้ว; Q1062–Q1081รับแล้ว; Q1082ยังไม่สร้าง; Q839–Q862ยังพัก.
 
-**ล่าสุด2026-10-22:** รับQ962–Q981แล้ว แยกหมวด10ส่วน5(เครือข่าย), หมวด11ส่วน2(ฐานหลัก/สถานย่อย), หมวด06(Q967ผังUI) และหมวด04ส่วน2(Q968ภารกิจ). Q982–Q1001รับแล้ว; Q1002–Q1021รับแล้ว; Q1022–Q1041รับแล้ว; Q1042–Q1061รับแล้ว; Q1062ยังไม่สร้าง; Q839–Q862ยังพัก.
+**ล่าสุด2026-10-22:** รับ[Q982–Q1001คดีเปิดเรื่อง](questions/topics/01_opening_case_03.md)ครบแล้ว พร้อมข้อแก้ไขQ987/Q992/Q997. เพิ่มแผนที่Q1001–Q1100; Q1002–Q1021รับแล้ว; Q1022–Q1041รับแล้ว; Q1042–Q1061รับแล้ว; Q1062–Q1081รับแล้ว; Q1082ยังไม่สร้าง. ถัดไปลำดับคดีและจังหวะทีมตามQ1001=A; Q839–Q862ยังพัก.
 
-**ล่าสุด2026-10-22:** รับQ942–Q961แล้ว แบ่งหมวด10ส่วน4(หน่วย/องค์กร/งานถัดไป), หมวด13ส่วน2(เทค), หมวด11(Q947สถานที่) และหมวด04ส่วน2(ภารกิจ). Q962–Q981รับแล้ว; Q982–Q1001รับแล้ว; Q1002–Q1021รับแล้ว; Q1022–Q1041รับแล้ว; Q1042–Q1061รับแล้ว; Q1062ยังไม่สร้าง. ถัดไปเสนอผังเครือข่ายตามQ961=A; Q839–Q862ยังพัก.
+**ล่าสุด2026-10-22:** รับQ962–Q981แล้ว แยกหมวด10ส่วน5(เครือข่าย), หมวด11ส่วน2(ฐานหลัก/สถานย่อย), หมวด06(Q967ผังUI) และหมวด04ส่วน2(Q968ภารกิจ). Q982–Q1001รับแล้ว; Q1002–Q1021รับแล้ว; Q1022–Q1041รับแล้ว; Q1042–Q1061รับแล้ว; Q1062–Q1081รับแล้ว; Q1082ยังไม่สร้าง; Q839–Q862ยังพัก.
+
+**ล่าสุด2026-10-22:** รับQ942–Q961แล้ว แบ่งหมวด10ส่วน4(หน่วย/องค์กร/งานถัดไป), หมวด13ส่วน2(เทค), หมวด11(Q947สถานที่) และหมวด04ส่วน2(ภารกิจ). Q962–Q981รับแล้ว; Q982–Q1001รับแล้ว; Q1002–Q1021รับแล้ว; Q1022–Q1041รับแล้ว; Q1042–Q1061รับแล้ว; Q1062–Q1081รับแล้ว; Q1082ยังไม่สร้าง. ถัดไปเสนอผังเครือข่ายตามQ961=A; Q839–Q862ยังพัก.
 
 **รับQ926–Q941แล้ว2026-10-21:** [ต้นทางหมวด10ส่วน3](questions/topics/10_faction_leadership_03.md). Q927=A+B+C, Q928=C, Q932=A+B; ข้ออื่นรับคำแนะนำ รวมQ939เลื่อนวิธีจบ. Q942–Q961รับแล้ว; Q962ยังไม่สร้าง ไม่เปลี่ยนสถานะประวัติQ839–Q862.
 
-**ล่าสุด2026-10-21:** รับQ902–Q925แล้ว แบ่งกฎเทคหมวด13ส่วน2 และรัฐ/องค์กรหมวด10ส่วน2. Q926–Q941หมวด10ส่วน3รับแล้ว; Q939เลื่อนวิธีจบ และQ942–Q961รับแล้ว; Q962–Q981รับแล้ว; Q982–Q1001รับแล้ว; Q1002–Q1021รับแล้ว; Q1022–Q1041รับแล้ว; Q1042–Q1061รับแล้ว; Q1062ยังไม่สร้าง. เลขเดิมคงไว้ ไม่เติมคำตอบประวัติQ839–Q862.
+**ล่าสุด2026-10-21:** รับQ902–Q925แล้ว แบ่งกฎเทคหมวด13ส่วน2 และรัฐ/องค์กรหมวด10ส่วน2. Q926–Q941หมวด10ส่วน3รับแล้ว; Q939เลื่อนวิธีจบ และQ942–Q961รับแล้ว; Q962–Q981รับแล้ว; Q982–Q1001รับแล้ว; Q1002–Q1021รับแล้ว; Q1022–Q1041รับแล้ว; Q1042–Q1061รับแล้ว; Q1062–Q1081รับแล้ว; Q1082ยังไม่สร้าง. เลขเดิมคงไว้ ไม่เติมคำตอบประวัติQ839–Q862.
 
 อัปเดต 2026-10-19: ย้ายไฟล์รวมเดิมออกเป็นหมวดแล้ว คง Q01–Q694 และ Q04.1–Q04.5 พร้อมประวัติการตอบ/แก้ไขทั้งหมด. ไฟล์นี้เป็นดัชนี ไม่ใช่ที่ต่อบันทึกคำตอบทุกเรื่อง.
 
@@ -25,7 +27,7 @@
 | หมวด | ไฟล์เจ้าของคำถามและคำตอบ | จำนวน Q |
 |---|---|---:|
 | แกนเรื่อง คดี และตอนจบ | [ส่วน 1](questions/topics/01_story_case_endings.md)  · [ส่วน 2](questions/topics/01_main_plot_alternatives_02.md) · [ส่วน 3: คดีเปิดเรื่อง](questions/topics/01_opening_case_03.md) · [ส่วน 4: ลำดับคดี](questions/topics/01_case_progression_04.md) | 75 |
-| กลุ่มตัวละคร ชื่อ และบทบาทความสัมพันธ์ | [ส่วน 1](questions/topics/02_cast_and_relationship_setup.md)  · [ส่วน 2](questions/topics/02_old_friends_background_02.md)  · [ส่วน 3](questions/topics/02_old_friend_life_03.md)  · [ส่วน 4](questions/topics/02_elena_background_work_04.md)  · [ส่วน 5](questions/topics/02_team_structure_before_profiles_05.md)  · [ส่วน 6](questions/topics/02_team_roles_operations_06.md)  · [ส่วน 7](questions/topics/02_team_twelve_roles_stakes_07.md) · [ส่วน 8: รวมทีมก่อนครึ่งแรก](questions/topics/02_team_integration_before_midpoint_08.md) · [ส่วน 9: ทักษะ/อุปกรณ์](questions/topics/02_team_specialties_equipment_09.md) | 178 |
+| กลุ่มตัวละคร ชื่อ และบทบาทความสัมพันธ์ | [ส่วน 1](questions/topics/02_cast_and_relationship_setup.md)  · [ส่วน 2](questions/topics/02_old_friends_background_02.md)  · [ส่วน 3](questions/topics/02_old_friend_life_03.md)  · [ส่วน 4](questions/topics/02_elena_background_work_04.md)  · [ส่วน 5](questions/topics/02_team_structure_before_profiles_05.md)  · [ส่วน 6](questions/topics/02_team_roles_operations_06.md)  · [ส่วน 7](questions/topics/02_team_twelve_roles_stakes_07.md) · [ส่วน 8: รวมทีมก่อนครึ่งแรก](questions/topics/02_team_integration_before_midpoint_08.md) · [ส่วน 9: ทักษะ/อุปกรณ์](questions/topics/02_team_specialties_equipment_09.md) | 179 |
 | ความรัก ความสัมพันธ์ และการเลือกคู่ | [ส่วน 1](questions/topics/03_romance_and_relationships.md) | 8 |
 | จัดทีม ทักษะ ภารกิจ และผลลัพธ์ | [ส่วน 1](questions/topics/04_dispatch_skills_missions_01.md) · [ส่วน 2](questions/topics/04_dispatch_skills_missions_02.md) | 70 |
 | เวลา เซฟ และตัวเลือกด่วน | [ส่วน 1](questions/topics/05_time_save_and_choices.md) | 13 |
@@ -36,14 +38,14 @@
 | กลุ่มอำนาจ บริษัท และเครือข่าย | [ส่วน 1](questions/topics/10_power_companies_networks.md) · [ส่วน 2: รัฐ/องค์กร](questions/topics/10_state_criminal_conflict_02.md) · [ส่วน 3: โครงผู้นำ](questions/topics/10_faction_leadership_03.md) · [ส่วน 4: หน่วยและลูกน้อง](questions/topics/10_network_units_04.md) · [ส่วน 5: เครือข่าย](questions/topics/10_network_dependencies_05.md) | 71 |
 | สถาบัน ศูนย์หลัก สถานที่ลับ และสิทธิ์ | [ส่วน 1](questions/topics/11_institution_sites_access.md) · [ส่วน 2: ฐานหลักและสถานย่อย](questions/topics/11_main_base_and_satellites_02.md) | 49 |
 | กฎหมายความจำและการบังคับใช้ | [ส่วน 1](questions/topics/12_memory_law_enforcement.md) | 11 |
-| อุปกรณ์ในตัว สิทธิ์ และตลาดอุปกรณ์ | [ส่วน 1](questions/topics/13_implants_and_device_market.md) · [ส่วน 2: เพิ่มประสิทธิภาพ/ถ่ายทอดทักษะ](questions/topics/13_enhancement_skill_transfer_02.md) | 45 |
+| อุปกรณ์ในตัว สิทธิ์ และตลาดอุปกรณ์ | [ส่วน 1](questions/topics/13_implants_and_device_market.md) · [ส่วน 2: เพิ่มประสิทธิภาพ/ถ่ายทอดทักษะ](questions/topics/13_enhancement_skill_transfer_02.md) · [ส่วน 3: อาวุธประจำตัว](questions/topics/13_character_weapons_03.md) | 60 |
 | บริการความจำ การลบ เครื่องมือ และสาร | [ส่วน 1](questions/topics/14_memory_services_substances_01.md) · [ส่วน 2](questions/topics/14_memory_services_substances_02.md) | 66 |
 | อาคารพัก ห้อง และการใช้พื้นที่ | [ส่วน 1](questions/topics/15_housing_building_room.md) | 32 |
 | บริษัท ออฟฟิศ และงานทั่วไป | [ส่วน 1](questions/topics/16_office_workplace.md) | 25 |
 | พื้นที่พบปะและร้านเครื่องดื่ม | [ส่วน 1](questions/topics/17_meeting_places_drink_shop.md) | 17 |
 | ตลาด ขนส่ง และเส้นทาง | [ส่วน 1](questions/topics/18_market_transport_routes.md) | 19 |
 | ขอบเขตและภารกิจต้นแบบ | [ส่วน 1](questions/topics/19_playable_prototype_scope.md) | 17 |
-| ขั้นตอนถามประวัติคนและสถานที่ | [ส่วน 1](questions/topics/20_profile_location_question_workflow_01.md) · [ส่วน 2](questions/topics/20_profile_location_question_workflow_02.md) | 48 |
+| ขั้นตอนถามประวัติคนและสถานที่ | [ส่วน 1](questions/topics/20_profile_location_question_workflow_01.md) · [ส่วน 2](questions/topics/20_profile_location_question_workflow_02.md) | 52 |
 | แนวภาพ รูปลักษณ์ และชุด | [ส่วน 1](questions/topics/21_visual_direction.md) | 7 |
 | วัฒนธรรม ครอบครัว การเรียน และสังคม | [ส่วน 1](questions/topics/22_culture_family_education.md) | 23 |
 | เงิน รายได้ ค่าครองชีพ และหนี้ | [ส่วน 1](questions/topics/23_money_cost_of_living.md) | 9 |
