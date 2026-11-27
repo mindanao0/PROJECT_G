@@ -1,5 +1,7 @@
 # 02 — ดัชนีคำถามและคำตอบ
 
+**2026-11-27 — [Iris Q1867–Q1869](questions/topics/02_iris_reveal_50.md) / [คำตอบ](answers/02_iris_reveal_q1867.md)** ตอบแล้ว หัวข้อ Iris ชื่อเต็มและการเปิดเผยตัวตน
+
 **2026-11-27 — [Iris Q1864–Q1866](questions/topics/02_iris_names_49.md) / [คำตอบ](answers/02_iris_names_q1864.md)** Q1864=B ชื่อแฝง Needle มาจากเข็มแผ่นเสียง Q1865=A Iris เป็นชื่อจริง Q1866=A หลังเธอเลือกเปิดเผยตัวตน ทีมเรียก Iris เมื่อคุยกันเองและใช้ Needle เมื่อติดต่อคนนอกในนามงาน
 
 **2026-11-27 — [Iris Q1858–Q1863](questions/topics/02_iris_personal_life_48.md) / [คำตอบ](answers/02_iris_personal_life_q1858.md)** รับตามแนะนำครบ Q1858=A Q1859=B Q1860=A Q1861=A Q1862=A Q1863=A เจ้าของกำหนดให้ Iris ผมตรงยาว
