@@ -1,5 +1,7 @@
 # 02 — ดัชนีคำถามและคำตอบ
 
+**2026-11-27 — [Iris Q1870–Q1872](questions/topics/02_iris_first_meeting_51.md#q1870) / [คำตอบ](answers/02_iris_first_meeting_q1870.md)** ตอบแล้ว รอคำตอบ [Q1873–Q1890](questions/topics/02_iris_first_meeting_51.md#q1873) เรื่องพยาน การพบทีม การบอกชื่อ และความสัมพันธ์
+
 **2026-11-27 — [Iris Q1867–Q1869](questions/topics/02_iris_reveal_50.md) / [คำตอบ](answers/02_iris_reveal_q1867.md)** ตอบแล้ว หัวข้อ Iris ชื่อเต็มและการเปิดเผยตัวตน
 
 **2026-11-27 — [Iris Q1864–Q1866](questions/topics/02_iris_names_49.md) / [คำตอบ](answers/02_iris_names_q1864.md)** Q1864=B ชื่อแฝง Needle มาจากเข็มแผ่นเสียง Q1865=A Iris เป็นชื่อจริง Q1866=A หลังเธอเลือกเปิดเผยตัวตน ทีมเรียก Iris เมื่อคุยกันเองและใช้ Needle เมื่อติดต่อคนนอกในนามงาน
